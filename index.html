@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>3-Candle Forecast – Multi-Indicator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="dashboard">
+    <h2>3-Candle Forecast – Multi-Indicator</h2>
+
+    <label for="pairSelect">Pair:</label>
+    <select id="pairSelect">
+        <option value="EUR/USD">EUR/USD</option>
+        <option value="GBP/USD">GBP/USD</option>
+        <option value="USD/JPY">USD/JPY</option>
+        <option value="USD/CHF">USD/CHF</option>
+        <option value="USD/CAD">USD/CAD</option>
+        <option value="AUD/USD">AUD/USD</option>
+        <option value="NZD/USD">NZD/USD</option>
+    </select>
+
+    <label for="tfSelect">Timeframe:</label>
+    <select id="tfSelect">
+        <option value="1min">1m</option>
+        <option value="3min">3m</option>
+        <option value="5min">5m</option>
+    </select>
+
+    <div id="countdown">Next Candle in: 00:00</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Candle</th>
+                <th>Prob Higher</th>
+                <th>Prob Lower</th>
+            </tr>
+        </thead>
+        <tbody id="forecastBody">
+            <tr><td>1</td><td>0</td><td>0</td></tr>
+            <tr><td>2</td><td>0</td><td>0</td></tr>
+            <tr><td>3</td><td>0</td><td>0</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
