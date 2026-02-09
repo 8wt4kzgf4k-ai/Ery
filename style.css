@@ -1,0 +1,5 @@
+body { font-family: Arial; background:#111; color:#eee; display:flex; justify-content:center; padding:20px;}
+#dashboard { width:480px; text-align:center;}
+select { padding:5px; font-size:16px; margin:5px;}
+table { width:100%; margin-top:20px; border-collapse:collapse; }
+th, td { padding:6px; border-bottom:1px solid #444; text-align:center;}
